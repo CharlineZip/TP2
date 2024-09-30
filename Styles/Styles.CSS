@@ -25,8 +25,19 @@ header{
 main{
     display: flex;
     justify-content: center;
+    margin-top: 50px;
 }
 h1{
     margin-right: auto;
     font-size: 40px;
 }
+.dem{
+   background: rgb(6, 81, 131);
+    color: rgb(255, 255, 255);
+}
+.encadré{
+    border: 2px solid;
+    border-color: rgb(6, 81, 131);
+    color: rgb(6, 81, 131);
+}
+
