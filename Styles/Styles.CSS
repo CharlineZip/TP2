@@ -15,7 +15,7 @@ header{
     border-color: rgb(6, 81, 131);
     color:rgb(6, 81, 131);
     padding: 10px;
-    font-size: 25px;
+    font-size: 15px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 .entête{
@@ -32,12 +32,49 @@ h1{
     font-size: 40px;
 }
 .dem{
-   background: rgb(6, 81, 131);
+    background: rgb(6, 81, 131);
     color: rgb(255, 255, 255);
+    width: fit-content;
+    padding: 10px;
 }
 .encadré{
     border: 2px solid;
     border-color: rgb(6, 81, 131);
     color: rgb(6, 81, 131);
+    width: fit-content;
+    padding: 10px;
+    margin-left: 10px;
+}
+p{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+h2{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.rectangle{
+    display: flex;
+    margin: 50px;
+}
+.police{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.texte{
+    margin: 100px;
+}
+footer{
+    background: black;
+    display: flex;
+    align-items: center;
+}
+.couleur{
+    color: white;
+}
+h3{
+    color: white;
+    margin-right: 50px;
+    font-size: 25px;
+}
+.logo{
+    margin-left: auto;
 }
 
